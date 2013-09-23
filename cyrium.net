@@ -1,0 +1,18 @@
+# EESchema Netlist Version 1.1 created  Mon 23 Sep 2013 05:48:04 AM PDT
+(
+ ( /523FE3EB $noname  D1 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ S*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+}
+#End
