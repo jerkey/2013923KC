@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Tue 24 Sep 2013 12:35:24 AM PDT
+PCBNEW-BOARD Version 2 date Tue 24 Sep 2013 12:56:18 AM PDT
 
 # Created by Pcbnew(2012-oct-18)-testing
 
@@ -9,12 +9,12 @@ LayerCount 2
 EnabledLayers 1FFF8001
 Links 0
 NoConn 0
-Di 95.174999 99.035799 108.025001 142.772201
+Di 95.174999 99.035799 121.704101 142.772201
 Ndraw 77
 Ntrack 0
 Nzone 0
 BoardThickness 1.6
-Nmodule 1
+Nmodule 5
 Nnets 1
 $EndGENERAL
 
@@ -63,12 +63,12 @@ TextPcbSize 1 1
 EdgeModWidth 0.15
 TextModSize 1 1
 TextModWidth 0.15
-PadSize 0.25654 2.6543
-PadDrill 0
+PadSize 1.016 1.016
+PadDrill 1.016
 Pad2MaskClearance 0
 AuxiliaryAxisOrg 0 0
 VisibleElements FFFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 201359360) (usegerberextensions true) (excludeedgelayer true) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerbers))
 $EndSETUP
 
 $EQUIPOT
@@ -119,6 +119,82 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE cyrium1
+$MODULE 1pin
+Po 116.205 109.7534 0 15 52414424 524143C6 ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 524143C6
+AR 1pin
+Op 0 0 0
+T0 0 -3.048 1.016 1.016 0 0.254 N V 21 N "1PIN"
+T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "P***"
+DC 0 0 0 -2.286 0.381 21
+$PAD
+Sh "1" C 1.5875 1.5875 0 0 0
+Dr 1.5875 0 0
+At STD N 0CE0FFFF
+Ne 0 ""
+Po -14.605 1.8542
+$EndPAD
+$EndMODULE 1pin
+$MODULE 1pin
+Po 115.4938 117.7036 0 15 52414531 524143D4 ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 524143D4
+AR 1pin
+Op 0 0 0
+T0 0 -3.048 1.016 1.016 0 0.254 N V 21 N "1PIN"
+T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "P***"
+DC 0 0 0 -2.286 0.381 21
+$PAD
+Sh "2" C 3.5052 3.5052 0 0 0
+Dr 3.5052 0 0
+At STD N 0CE0FFFF
+Ne 0 ""
+Po -13.8938 1.905
+$EndPAD
+$EndMODULE 1pin
+$MODULE 1pin
+Po 116.205 132.0292 0 15 52414544 524143DF ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 524143DF
+AR 1pin
+Op 0 0 0
+T0 0 -3.048 1.016 1.016 0 0.254 N V 21 N "1PIN"
+T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "P***"
+DC 0 0 0 -2.286 0.381 21
+$PAD
+Sh "4" C 1.016 1.016 0 0 0
+Dr 1.016 0 0
+At STD N 0CE0FFFF
+Ne 0 ""
+Po -19.6088 9.1694
+$EndPAD
+$EndMODULE 1pin
+$MODULE 1pin
+Po 118.9736 138.1252 0 15 5241453D 5241448F ~~
+Li 1pin
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 5241448F
+AR 1pin
+Op 0 0 0
+T0 0 -3.048 1.016 1.016 0 0.254 N V 21 N "1PIN"
+T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "P***"
+DC 0 0 0 -2.286 0.381 21
+$PAD
+Sh "3" C 1.016 1.016 0 0 0
+Dr 1.016 0 0
+At STD N 0CE0FFFF
+Ne 0 ""
+Po -12.3698 3.0734
+$EndPAD
+$EndMODULE 1pin
 $DRAWSEGMENT
 Po 0 97.6122 104.5972 95.25 104.5972 0.14986
 De 27 0 900 0 0
